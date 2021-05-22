@@ -63,9 +63,10 @@ h1 {
 hr {
     height:2px;
     border-width: 0;
-    width:1000px;
+    width:55vw;
     color:indigo;
     background-color:rgb(241, 148, 8);
+    margin:100px auto;
 }
 #achieve {
     color:palegreen;
@@ -77,7 +78,7 @@ hr {
     color:peru;
     font-size: 30px;
     text-align: left;
-    margin: 0 50 px;
+    margin: 0px 50 px;
 }
 #project {
     color:rgb(4, 160, 4);
@@ -98,16 +99,18 @@ a:hover {
 }
 #me {
     float:right;
-    width:400px;
-    height:400px;
-    margin:100px 400px;
+    width:30vw;
+    max-width:100%;
+    /* align: right; */
+    height:auto;
+    margin:100px 10vw 100px 10vw;
     /* margin-right:100px; */
     /* padding: 50px 400px; */
     border:5px groove gold;
     border-radius: 200px;
 }
 #iitk {
-    margin: -110px 500px 1px 0px;
+    margin: 10px 10vw 1px 0px;
     float:right;
     border:5px groove gold;
     border-radius: 20px;
